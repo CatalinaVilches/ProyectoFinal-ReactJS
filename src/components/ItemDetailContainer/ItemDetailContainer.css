@@ -1,0 +1,42 @@
+.itemDetail {
+    display: flex;
+    margin: 5%;
+    padding: 10px;
+    border: solid;
+    border-color: #00ff00;
+}
+
+.itemSpecs {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.itemCount {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    border: none;
+    margin-inline: 10px;
+    color: aliceblue;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.contador{
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}

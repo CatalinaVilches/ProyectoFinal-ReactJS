@@ -1,0 +1,43 @@
+.itemlistcontainer {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemlistcontainer h2 {
+    font-size: medium;
+    text-align: center;
+    color: rgb(59, 5, 121);
+}
+
+.itemlistcontainer p {
+    text-align: center;
+    color: rgb(59, 5, 121);
+}
+
+.itemlistcontainer .itemlist {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemlistcontainer .itemlist .item {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: #9900ff;
+    border-radius: 15px; 
+    text-decoration: none;
+    background-color: #ffc5fc;
+    color:#9900ff
+}
+
+.itemlistcontainer .itemlist .item img {
+    width: 250px;
+    padding: 10px;
+}

@@ -1,0 +1,15 @@
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 25%;
+}
+.cart p{
+    font-size: large;
+    padding-left: 10px;
+    color: black;
+}
+.cart img{
+    cursor: pointer;
+}
