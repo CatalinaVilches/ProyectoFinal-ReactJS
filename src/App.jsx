@@ -3,7 +3,7 @@ import ItemListContainer from './components/itemListContainer/itemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/cartContext'
-import Cart from './components/Cart/Cart'
+import Cart from './components/cart/cart'
 import Checkout from './components/Checkout/Checkout'
 import { ToastContainer } from 'react-toastify';
 import './App.css'
