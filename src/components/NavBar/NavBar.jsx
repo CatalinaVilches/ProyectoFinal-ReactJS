@@ -1,7 +1,7 @@
 import CartWidget from "./CartWidget"
 import { BsBox } from "react-icons/bs";
 import { Link } from "react-router-dom"
-import "./navbar.css"
+import "./Navbar.css"
 
 const NavBar = () => {
 
