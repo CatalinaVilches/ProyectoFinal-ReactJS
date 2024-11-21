@@ -4,7 +4,7 @@ const Item = ({ product }) => {
 
   return (
     <div className="item">
-      <img src={product.image} className="img-item" alt="" width={100} />
+      <img src={product.image} className="img-item" alt="" width={250} height={250}  />
       <p className="text-item">{product.name}</p>
       <p className="text-item">${product.price}</p>
       <Link to={ "/detail/" + product.id } className="button-detail" > Ver detalles </Link>
