@@ -21,7 +21,7 @@ const ItemDetail = ({ product }) => {
         <div className="secondary-images">
         </div>
         <div className="main-image">
-          <img src={product.image} alt="" />
+          <img src={product.image} alt=""  height={500} width={500} />
         </div>
       </div>
 
