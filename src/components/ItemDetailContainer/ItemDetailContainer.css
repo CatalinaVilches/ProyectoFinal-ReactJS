@@ -1,42 +1,60 @@
-.itemDetail {
-    display: flex;
-    margin: 5%;
-    padding: 10px;
-    border: solid;
-    border-color: #d911f3;
-}
-
-.itemSpecs {
+.itemlistcontainer {
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    color: aliceblue;
-    padding: 10px;
-    margin-left: 10px;
 }
 
-.itemCount {
+.itemlistcontainer h2 {
+    font-size: medium;
+    text-align: center;
+    color: rgb(59, 5, 121);
+}
+
+.itemlistcontainer p {
+    text-align: center;
+    color: rgb(59, 5, 121);
+}
+
+.itemlistcontainer .itemlist {
+    align-items: center;
     display: flex;
-    align-items: flex-end;
-    margin-top: 100px;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-evenly;
 }
 
-button {
-    background: none;
-    border: none;
-    margin-inline: 10px;
-    color: aliceblue;
-    background-color: #272727;
-    cursor: pointer;
-}
-
-.contador{
+.itemlistcontainer .itemlist .item {
+    width: 300px;
     display: flex;
-    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: #9900ff;
+    border-radius: 15px; 
+    text-decoration: none;
+    background-color: #ffc5fc;
+    color:#9900ff
 }
 
-a{
-    color: aliceblue;
+.itemlistcontainer .itemlist .item-img
+ {
+    padding: 10px;}
+
+    .button-detail 
+    {
+    padding: 0 20px;
+    font-family: cursive ;                                 
+    font-size:x-large;
     text-decoration: none;
-}
+    color: rgb(59, 5, 121);
+    border: 3px solid rgb(184, 145, 230);
+    border-radius: 20px;}
+
+    .button-detail:hover{
+        cursor: pointer;
+        background-color: rgb(184, 145, 230);
+        border: 1px solid rgb(255, 168, 236);
+        color: rgb(245, 189, 217);
+      }
+      
