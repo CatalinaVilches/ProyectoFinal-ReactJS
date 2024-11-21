@@ -37,7 +37,24 @@
     color:#9900ff
 }
 
-.itemlistcontainer .itemlist .item img {
-    width: 250px;
-    padding: 10px;
-}
+.itemlistcontainer .itemlist .item-img
+ {
+    padding: 10px;}
+
+    .button-detail 
+    {
+    padding: 0 20px;
+    font-family: cursive ;                                 
+    font-size:x-large;
+    text-decoration: none;
+    color: rgb(59, 5, 121);
+    border: 3px solid rgb(184, 145, 230);
+    border-radius: 20px;}
+
+    .button-detail:hover{
+        cursor: pointer;
+        background-color: rgb(184, 145, 230);
+        border: 1px solid rgb(255, 168, 236);
+        color: rgb(245, 189, 217);
+      }
+      
