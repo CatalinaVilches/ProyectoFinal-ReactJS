@@ -1,60 +1,43 @@
-.itemlistcontainer {
-    padding: 50px;
+.itemDetail {
     display: flex;
-    flex-direction: column;
-}
-
-.itemlistcontainer h2 {
-    font-size: medium;
-    text-align: center;
-    color: rgb(59, 5, 121);
-}
-
-.itemlistcontainer p {
-    text-align: center;
-    color: rgb(59, 5, 121);
-}
-
-.itemlistcontainer .itemlist {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.itemlistcontainer .itemlist .item {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px;
+    margin: 5%;
     padding: 10px;
     border: solid;
-    border-color: #9900ff;
-    border-radius: 15px; 
-    text-decoration: none;
-    background-color: #ffc5fc;
-    color:#9900ff
+    border-color: #d911f3;
 }
 
-.itemlistcontainer .itemlist .item-img
- {
-    padding: 10px;}
+.itemSpecs {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 10px;
+}
 
-    .button-detail 
-    {
-    padding: 0 20px;
-    font-family: cursive ;                                 
-    font-size:x-large;
+.itemCount {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    border: none;
+    margin-inline: 10px;
+    color: rgb(250, 191, 240);
+    background-color: #f00ae4;
+    cursor: pointer;
+}
+
+.contador{
+    display: flex;
+    gap: 50px;
+
+}
+
+a{
+    color: rgb(247, 159, 225);
     text-decoration: none;
-    color: rgb(59, 5, 121);
-    border: 3px solid rgb(184, 145, 230);
-    border-radius: 20px;}
-
-    .button-detail:hover{
-        cursor: pointer;
-        background-color: rgb(184, 145, 230);
-        border: 1px solid rgb(255, 168, 236);
-        color: rgb(245, 189, 217);
-      }
-      
+}
