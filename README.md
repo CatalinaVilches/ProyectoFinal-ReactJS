@@ -1,11 +1,11 @@
 # Ecommerce "Pastelería Dulces Momentos"
 
-#Descripcion
+# Descripcion
 
 
 Este proyecto final de ReactJS corresponde a un ecommerce desarrollado para una pastelería ficticia. El proyecto está basado en el trabajo final de mi curso de Desarrollo Web y JavaScript, donde he aplicado mis conocimientos adquiridos para construir una tienda virtual funcional.
 
-#Dependencias
+# Dependencias
 
 -Las dependencias utilizadas en el proyecto son las siguientes:
 
