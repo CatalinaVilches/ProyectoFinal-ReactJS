@@ -65,23 +65,24 @@ const Checkout = () => {
     deleteCart()
   }
 
-  return (
-    <div>
-      {
-        idOrder === null ? (
-          <FormCheckout
-            dataForm={dataForm}
-            handleChangeInput={handleChangeInput}
-            handleSubmitForm={handleSubmitForm} />
-        ) : (
-          <div>
-            <h2>Su orden se subio correctamente!😁</h2>
-            <p>Porfavor guarde su nro de seguimiento: {idOrder}</p>
-            <Link to="/">Volver al inicio</Link>
-          </div>
-        )
-      }
-    </div>
-  )
+
+    return (
+        <div>
+            {
+                idOrder === null ? (
+                    <FormCheckout
+                        dataForm={dataForm}
+                        handleChangeInput={handleChangeInput}
+                        handleSubmitForm={handleSubmitForm} />
+                ) : (
+                    <div className='successForm'>
+                        <h2>Orden completada!</h2>
+                        <p>Su numero de seguimiento es: {idOrder}</p>
+                        <Link to="/">Inicio</Link>
+                    </div>
+                )
+            }
+        </div>
+    )
 }
 export default Checkout
