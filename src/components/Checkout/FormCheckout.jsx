@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./checkout.css";
+import "./Checkout.css";
 
 const FormCheckout = ({ dataForm, handleChangeInput, handleSubmitForm }) => {
     return (
