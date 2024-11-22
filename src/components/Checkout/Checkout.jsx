@@ -6,7 +6,7 @@ import { Timestamp, addDoc, collection, doc, setDoc } from "firebase/firestore"
 import db from "../../db/db.js"
 import { Link } from "react-router-dom"
 import "./Checkout.css"
-import validateForm from "../../utils/validateForms.js"
+import validateForm from "../../utils/validateForm.js"
 import { toast } from "react-toastify"
 
 const Checkout = () => {
