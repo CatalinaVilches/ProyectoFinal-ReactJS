@@ -5,6 +5,7 @@ import { CartContext } from "../../context/cartContext"
 import { Timestamp, addDoc, collection, doc, setDoc } from "firebase/firestore"
 import db from "../../db/db.js"
 import { Link } from "react-router-dom"
+import "./checkout.css"
 import validateForm from "../../utils/validateForms.js"
 import { toast } from "react-toastify"
 
