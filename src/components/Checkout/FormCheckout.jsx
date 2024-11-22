@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import "./checkout.css";
+
 const FormCheckout = ({ dataForm, handleChangeInput, handleSubmitForm }) => {
     return (
       <form onSubmit={handleSubmitForm}>
